@@ -53,4 +53,8 @@ Model forecast (next 6 months):
 - [LinkedIn](https://www.linkedin.com/in/soorya-k-s-/)  
 - 📧 Email: **sooryaks552@gmail.com*
 ---
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
+---
 ⭐️ From [Sooryaks237](https://github.com/Sooryaks237)
