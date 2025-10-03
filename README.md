@@ -13,7 +13,7 @@
 
 --- 
 
-## 📌 Project Overview  
+## Project Overview  
 This project predicts the **closing stock price of Yes Bank** using **Machine Learning regression models**.  
 This project focuses on forecasting the monthly closing price of Yes Bank stock using machine learning models.  
 The goal is to build a **leakage-safe ML pipeline**, engineer time-series features, and evaluate models against a naive baseline.  
@@ -22,7 +22,7 @@ The analysis follows a **time-series-aware ML approach** with no data leakage, u
 
 ---
 
-## 📂 Data Structure
+## Data Structure
 - **Date**: Monthly timestamp  
 - **Open, High, Low, Close**: Standard OHLC data  
 - **Volume**: Trading volume  
@@ -35,7 +35,7 @@ The analysis follows a **time-series-aware ML approach** with no data leakage, u
 
 ---
 
-## 📊 Executive Summary
+## Executive Summary
 - Built and optimized a **Ridge regression pipeline** with time-aware CV.  
 - Engineered **22+ leakage-safe features** for robust forecasting.  
 - Achieved **MAE 44.6 vs 251.9 baseline (~82% improvement)**.  
@@ -44,14 +44,14 @@ The analysis follows a **time-series-aware ML approach** with no data leakage, u
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 - Extend features with **macroeconomic indicators, sector indices, or sentiment signals**.  
 - Experiment with advanced models like **XGBoost, LightGBM, or LSTMs**.  
 - Deploy forecasts through **interactive dashboards** for decision support.  
 
 ---
 
-## 🔍 Methodology
+## Methodology
 1. **Feature Engineering**  
    - Cyclical month encoding (sin/cos)  
    - Price spreads & ratios (`hl_spread`, `oc_spread`, `range_ratio`)  
@@ -86,7 +86,7 @@ The analysis follows a **time-series-aware ML approach** with no data leakage, u
 
 ---
 
-## 📸 Sample Visualizations  
+## Sample Visualizations  
 
 Closing stock price trend:  
 ![Closing Price Trend](closing_price.png)  
