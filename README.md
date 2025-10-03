@@ -86,7 +86,7 @@ The analysis follows a **time-series-aware ML approach** with no data leakage, u
 
 ---
 
-## Sample Visualizations  
+## Visualizations  
 
 Closing stock price trend:  
 ![Closing Price Trend](closing_price.png)  
